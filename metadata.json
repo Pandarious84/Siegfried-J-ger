@@ -1,0 +1,7 @@
+{
+  "name": "Remix: Lichtblick - Dein Hub für Positivität",
+  "description": "Eine private Webseite, die sich ausschließlich auf positive Nachrichten, inspirierende Geschichten und das Gute in der Welt konzentriert.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

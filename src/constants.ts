@@ -1,0 +1,40 @@
+import { 
+  Newspaper, 
+  Heart, 
+  Leaf, 
+  FlaskConical, 
+  HandHelping, 
+  Quote, 
+  Activity, 
+  Palette, 
+  Music, 
+  Plane, 
+  Cpu, 
+  PawPrint, 
+  Users, 
+  TrendingUp, 
+  Telescope, 
+  Smile,
+  Video
+} from "lucide-react";
+import { Category } from "./types";
+
+export const CATEGORIES: Category[] = [
+  { id: "news", title: "Positive News", icon: Newspaper, description: "Gute Nachrichten aus aller Welt.", color: "bg-orange-500" },
+  { id: "humanity", title: "Menschlichkeit", icon: Heart, description: "Geschichten, die das Herz berühren.", color: "bg-red-500" },
+  { id: "nature", title: "Natur & Umwelt", icon: Leaf, description: "Erfolge im Naturschutz.", color: "bg-green-500" },
+  { id: "science", title: "Wissenschaft", icon: FlaskConical, description: "Fortschritte für die Menschheit.", color: "bg-blue-500" },
+  { id: "deeds", title: "Gute Taten", icon: HandHelping, description: "Alltagshelden im Einsatz.", color: "bg-yellow-500" },
+  { id: "inspiration", title: "Inspiration", icon: Quote, description: "Zitate, die Kraft geben.", color: "bg-purple-500" },
+  { id: "health", title: "Gesundes Leben", icon: Activity, description: "Tipps für Körper und Geist.", color: "bg-teal-500" },
+  { id: "art", title: "Kunst & Kreativität", icon: Palette, description: "Schönheit in allen Formen.", color: "bg-pink-500" },
+  { id: "music", title: "Musik für die Seele", icon: Music, description: "Klänge, die glücklich machen.", color: "bg-indigo-500" },
+  { id: "travel", title: "Reisen & Kulturen", icon: Plane, description: "Die Vielfalt unserer Erde.", color: "bg-cyan-500" },
+  { id: "tech", title: "Tech for Good", icon: Cpu, description: "Technik, die hilft.", color: "bg-slate-700" },
+  { id: "animals", title: "Tierrettung", icon: PawPrint, description: "Zweite Chancen für Fellnasen.", color: "bg-amber-600" },
+  { id: "community", title: "Gemeinschaft", icon: Users, description: "Zusammenhalt stärken.", color: "bg-emerald-600" },
+  { id: "growth", title: "Persönliches Wachstum", icon: TrendingUp, description: "Werde die beste Version deiner selbst.", color: "bg-rose-500" },
+  { id: "future", title: "Zukunftsvisionen", icon: Telescope, description: "Ein optimistischer Blick nach vorn.", color: "bg-violet-600" },
+  { id: "kindness", title: "Freundlichkeit", icon: Smile, description: "Kleine Gesten, große Wirkung.", color: "bg-orange-400" },
+  { id: "videos", title: "Video-Ecke", icon: Video, description: "Lachen und Staunen garantiert.", color: "bg-red-600" },
+];
